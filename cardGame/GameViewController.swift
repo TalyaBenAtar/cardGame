@@ -1,0 +1,16 @@
+//
+//  GameViewController.swift
+//  cardGame
+//
+//  Created by Student30 on 11/06/2026.
+//
+import UIKit
+
+class GameViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        view.backgroundColor = .systemGreen
+    }
+}
