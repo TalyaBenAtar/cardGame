@@ -3,8 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3438302FDDC201005AC1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3438242FDDC201005AC1D4 /* AppDelegate.swift */; };
+		CD3438312FDDC201005AC1D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3438262FDDC201005AC1D4 /* GameViewController.swift */; };
+		CD3438322FDDC201005AC1D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34382C2FDDC201005AC1D4 /* SceneDelegate.swift */; };
+		CD3438332FDDC201005AC1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34382D2FDDC201005AC1D4 /* ViewController.swift */; };
+		CD3438342FDDC201005AC1D4 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34382E2FDDC201005AC1D4 /* WinnerViewController.swift */; };
+		CD3438352FDDC201005AC1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3438252FDDC201005AC1D4 /* Assets.xcassets */; };
+		CD3438372FDDC201005AC1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3438292FDDC201005AC1D4 /* LaunchScreen.storyboard */; };
+		CD3438382FDDC201005AC1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD34382B2FDDC201005AC1D4 /* Main.storyboard */; };
+		CD34383B2FDDC214005AC1D4 /* cardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3438392FDDC214005AC1D4 /* cardGameTests.swift */; };
+		CD34383F2FDDC21A005AC1D4 /* cardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34383C2FDDC21A005AC1D4 /* cardGameUITests.swift */; };
+		CD3438402FDDC21A005AC1D4 /* cardGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34383D2FDDC21A005AC1D4 /* cardGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CD08E2932FD9805E00145E02 /* PBXContainerItemProxy */ = {
@@ -27,23 +41,19 @@
 		CD08E27C2FD9805D00145E02 /* cardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD08E2922FD9805E00145E02 /* cardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD08E29C2FD9805E00145E02 /* cardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3438242FDDC201005AC1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD3438252FDDC201005AC1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3438262FDDC201005AC1D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CD3438272FDDC201005AC1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3438282FDDC201005AC1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD34382A2FDDC201005AC1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD34382C2FDDC201005AC1D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD34382D2FDDC201005AC1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD34382E2FDDC201005AC1D4 /* WinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
+		CD3438392FDDC214005AC1D4 /* cardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardGameTests.swift; sourceTree = "<group>"; };
+		CD34383C2FDDC21A005AC1D4 /* cardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardGameUITests.swift; sourceTree = "<group>"; };
+		CD34383D2FDDC21A005AC1D4 /* cardGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CD08E2A42FD9805E00145E02 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CD08E27B2FD9805D00145E02 /* cardGame */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CD08E27E2FD9805D00145E02 /* cardGame */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CD08E2A42FD9805E00145E02 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = cardGame; sourceTree = "<group>"; };
-		CD08E2952FD9805E00145E02 /* cardGameTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = cardGameTests; sourceTree = "<group>"; };
-		CD08E29F2FD9805E00145E02 /* cardGameUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = cardGameUITests; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CD08E2792FD9805D00145E02 /* Frameworks */ = {
@@ -73,9 +83,9 @@
 		CD08E2732FD9805D00145E02 = {
 			isa = PBXGroup;
 			children = (
-				CD08E27E2FD9805D00145E02 /* cardGame */,
-				CD08E2952FD9805E00145E02 /* cardGameTests */,
-				CD08E29F2FD9805E00145E02 /* cardGameUITests */,
+				CD34382F2FDDC201005AC1D4 /* cardGame */,
+				CD34383A2FDDC214005AC1D4 /* cardGameTests */,
+				CD34383E2FDDC21A005AC1D4 /* cardGameUITests */,
 				CD08E27D2FD9805D00145E02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +98,39 @@
 				CD08E29C2FD9805E00145E02 /* cardGameUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CD34382F2FDDC201005AC1D4 /* cardGame */ = {
+			isa = PBXGroup;
+			children = (
+				CD3438242FDDC201005AC1D4 /* AppDelegate.swift */,
+				CD3438252FDDC201005AC1D4 /* Assets.xcassets */,
+				CD3438262FDDC201005AC1D4 /* GameViewController.swift */,
+				CD3438272FDDC201005AC1D4 /* Info.plist */,
+				CD3438292FDDC201005AC1D4 /* LaunchScreen.storyboard */,
+				CD34382B2FDDC201005AC1D4 /* Main.storyboard */,
+				CD34382C2FDDC201005AC1D4 /* SceneDelegate.swift */,
+				CD34382D2FDDC201005AC1D4 /* ViewController.swift */,
+				CD34382E2FDDC201005AC1D4 /* WinnerViewController.swift */,
+			);
+			path = cardGame;
+			sourceTree = "<group>";
+		};
+		CD34383A2FDDC214005AC1D4 /* cardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3438392FDDC214005AC1D4 /* cardGameTests.swift */,
+			);
+			path = cardGameTests;
+			sourceTree = "<group>";
+		};
+		CD34383E2FDDC21A005AC1D4 /* cardGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD34383C2FDDC21A005AC1D4 /* cardGameUITests.swift */,
+				CD34383D2FDDC21A005AC1D4 /* cardGameUITestsLaunchTests.swift */,
+			);
+			path = cardGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +147,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CD08E27E2FD9805D00145E02 /* cardGame */,
 			);
 			name = cardGame;
 			packageProductDependencies = (
@@ -128,9 +168,6 @@
 			dependencies = (
 				CD08E2942FD9805E00145E02 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CD08E2952FD9805E00145E02 /* cardGameTests */,
-			);
 			name = cardGameTests;
 			packageProductDependencies = (
 			);
@@ -150,9 +187,6 @@
 			);
 			dependencies = (
 				CD08E29E2FD9805E00145E02 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CD08E29F2FD9805E00145E02 /* cardGameUITests */,
 			);
 			name = cardGameUITests;
 			packageProductDependencies = (
@@ -210,6 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3438352FDDC201005AC1D4 /* Assets.xcassets in Resources */,
+				CD3438372FDDC201005AC1D4 /* LaunchScreen.storyboard in Resources */,
+				CD3438382FDDC201005AC1D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3438302FDDC201005AC1D4 /* AppDelegate.swift in Sources */,
+				CD3438312FDDC201005AC1D4 /* GameViewController.swift in Sources */,
+				CD3438322FDDC201005AC1D4 /* SceneDelegate.swift in Sources */,
+				CD3438332FDDC201005AC1D4 /* ViewController.swift in Sources */,
+				CD3438342FDDC201005AC1D4 /* WinnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD34383B2FDDC214005AC1D4 /* cardGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD34383F2FDDC21A005AC1D4 /* cardGameUITests.swift in Sources */,
+				CD3438402FDDC21A005AC1D4 /* cardGameUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +310,25 @@
 			targetProxy = CD08E29D2FD9805E00145E02 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3438292FDDC201005AC1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3438282FDDC201005AC1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD34382B2FDDC201005AC1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD34382A2FDDC201005AC1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD08E2A62FD9805E00145E02 /* Debug */ = {
