@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CD08E2A42FD9805E00145E02 /* Exceptions for "cardGame" folder in "cardGame" target */ = {
+		CD08E2A42FD9805E00145E02 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CD08E27E2FD9805D00145E02 /* cardGame */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CD08E2A42FD9805E00145E02 /* Exceptions for "cardGame" folder in "cardGame" target */,
-			);
-			path = cardGame;
-			sourceTree = "<group>";
-		};
-		CD08E2952FD9805E00145E02 /* cardGameTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = cardGameTests;
-			sourceTree = "<group>";
-		};
-		CD08E29F2FD9805E00145E02 /* cardGameUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = cardGameUITests;
-			sourceTree = "<group>";
-		};
+		CD08E27E2FD9805D00145E02 /* cardGame */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CD08E2A42FD9805E00145E02 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = cardGame; sourceTree = "<group>"; };
+		CD08E2952FD9805E00145E02 /* cardGameTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = cardGameTests; sourceTree = "<group>"; };
+		CD08E29F2FD9805E00145E02 /* cardGameUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = cardGameUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = CD08E2772FD9805D00145E02 /* Build configuration list for PBXProject "cardGame" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = CD08E2732FD9805D00145E02;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = CD08E27D2FD9805D00145E02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
